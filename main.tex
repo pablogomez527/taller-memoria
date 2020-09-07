@@ -1,0 +1,92 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Taller de memoria}
+            
+        \vspace{0.5cm}
+        \LARGE
+        
+            
+        \vspace{1.5cm}
+            
+        \textbf{Juan pablo gomez ramirez} 
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Septiembre de 2020
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\section{Sección introductoria}\label{intro}
+En este trabajo indagaremos sobre las nociones básicas de la mememoria del computador por medio de una serie de preguntas, las cuales iremos resolviendo a lo largo de este
+\section{Contenido} \label{contenido}
+
+\subsection{Defina que es la memoria del computador}
+La memoria del computador es la encargada de mediar entre el almacenamiento del computador(lugar donde se guardan todos los programas) y el microprocesador(encargado de procesar todos los datos).
+La finalidad de esta es guardar los datos de manera temporal,para así acceder a  estos de manera más fácil y rapida y así haciendo todos los procesos más rapidos que si se sacran directamente del almacenamiento(disco duro).
+
+\subsection{Mencione los tipos de memoria que conoce y haga una pequeña descripción de cada tipo}
+
+
+\subsubsection{Memoria cache}
+Este es el tipo de memoria más rápido que hay en un computador y este se utiliza para guardar los datos utilizados mas frecuentemente para que las solicitudes de datos se puedan atender con mayor rapidez.Esta se divide en 3 tipos,los cuales son L1 la cual es la mas rapida de las 3 y se encuentra dentro del microprocesador,L2 que es un poco mas lenta y también se encuentra dentro del microprocesador y finalmente L3 que es la mas lenta de todas perola que mayor capacidad tiene.
+
+
+\subsection{Meromia RAM}
+RAM o (random access memory) es donde van a para todos los datos e instruccionesdel sistema mientras este esta trabajando para su posteriror uso.En la RAM se cargan todas las instrucciones del CPU.
+
+
+\subsection{Memoria virtual}
+Es una porción del disco duro dedicada exclusivamente a sostener temporalmente partes de los programas y datos en ejecución que se utilizan menos o que ocupan espacio innecesario en algun momento determinado y es preferible colocarlos en una zona de reserva donde siempre esten listo para ser utilizados.
+
+\subsection{Disco duro}
+Esta es la de mayor capacidad de almacenamiento y menor velociadd, en esta se guardan todos los programas como lo pueden ser juegos,videos,sistema operatico,etc.
+
+
+
+
+
+
+\section{Describa la manera como se gestiona la memoria de un computador} 
+La RAM(ramdom access memory) está dividida en celdas de memoria donde se almacenan cada uno de los bits o pulsos eléctricos y a los cuales se puede acceder directamente indistintamente de su posición o dirección.Lo opuesto a la RAM es la memoria SAM(serial access memory) donde los datos se almacenan temporalmente en serie uno después del otro y los cuales solamente pueden ser accedidos secuencialmente,mientras que en la RAM los datos pueden ser accedidos en cualquier orden.
+
+La RAM esta dividida en celdas donde se almacenan temporalmente cada uno de los bits que componen los bytes  de la información con la que trabaja el microprocesador.Cada una de las celdas almacena un bit,estas celdas se encuentran formadas por un transistor y un capacitor.Mientras los capacitores sostienen los bits de información.Los transitores actúan como interruptores que permiten a su controlador de memoria leer o modificar la información que contiene cada una de las celdas.
+
+Los capacitores funcionan teniendo que ser recargados constantemente con electrones que representan la información.Para mantener a los capacitores exactamente con la misma información de 1(capacitores llenos) y 0(capacitores vacíos) sin que se modifiquen,el controlador recarga los capacitores con 1 constantemente.Para hacer esto el controlador tiene que primero leer la memoria y rellenar los capacitores aún cargados con electrones antes de que se descarguen.
+
+\section{¿Que hace que una memoria sea más rápida que otra?¿por que es esto importante?}
+Lo que hace que una memoria sea más rápida que otra es el controlador de memoria, el controlador se encarga de comunicar las instrucciones del micro procesado estableciendo la velocidad con que se realizan las operaciones,este se encuentra ubicado dentro del microprocesador y entre mas moderno sea, mas rápido procesara la información.
+
+\subsection{¿Por que es esto importante?}
+Una buena memoria es un factor muy importante a la hora del rendimiento del computador, ya que si esta no tiene unos requisitos mínimos no podrán funcionar los programas de una manera óptima y la experiencia a la hora de hacer cualquier tarea sera muy insatisfactoria.
+
+\section{Conclusiones }
+Como conclusión podemos afirmar que para un rápido funcionamiento del computador debemos contar con una excelente memoria y microprocesador, ya que estos 2 van de la mano a la hora de efectuar las tareas con mayor velocidad  y así ofrecer una mejor experiencia de usuario.
+
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+ \cite{referencia}
+\end{document}
